@@ -47,6 +47,13 @@ section{
   color: #B5F700;
   font-weight: bold;
 }
+p.titulo1{
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  font-size: 50px;
+  font-weight: bold;
+}
 article{
   display: flex;
   flex-direction: column;
@@ -77,10 +84,49 @@ article{
 .col-2{
   margin-left: 20px;
 }
+p.tituloVideo{
+  position: absolute;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  height: 10px;
+}
 .contenedor-video{
   display: flex;
   justify-content: center;
-  margin: 50px;
-  padding: 30px;
+  margin-top: 50px;
+  padding: 80px;
   background: #74A8E2;
+}
+iframe{
+  margin-top: 60px;
+}
+form{
+  width: 400px;
+  height: 600px;
+  margin: auto;
+  padding: 15px 5px;
+  box-sizing: border-box;
+  margin-top: 50px;
+
+}
+p.titulo2{
+  color: black;
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+input, textarea{
+  width: 100%;
+  margin: 5px;
+  padding: 5px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: solid;
+}
+textarea{
+  min-height: 100px;
+  max-height: 200px;
+  ,max-width: 100%;
 }
