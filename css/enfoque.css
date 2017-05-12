@@ -1,4 +1,4 @@
-*{  
+*{
   margin: 0;
   padding: 0;
 }
@@ -108,7 +108,6 @@ form{
   padding: 15px 5px;
   box-sizing: border-box;
   margin-top: 30px;
-
 }
 p.titulo2{
   color: black;
