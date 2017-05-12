@@ -1,4 +1,4 @@
-*{
+*{  
   margin: 0;
   padding: 0;
 }
@@ -103,11 +103,11 @@ iframe{
 }
 form{
   width: 400px;
-  height: 600px;
+  height: 380px;
   margin: auto;
   padding: 15px 5px;
   box-sizing: border-box;
-  margin-top: 50px;
+  margin-top: 30px;
 
 }
 p.titulo2{
@@ -128,5 +128,66 @@ input, textarea{
 textarea{
   min-height: 100px;
   max-height: 200px;
-  ,max-width: 100%;
+  max-width: 100%;
+}
+#boton{
+  position: relative;
+  border-radius: 15px;
+  width: 110px;
+  left: 280px;
+}
+#boton:hover{
+  cursor: pointer;
+}
+footer{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-weight: bold;
+  font-size: 20px;
+  background: gray;
+  height: 40px;
+}
+
+@media (min-width: 0px) and
+(max-width: 320px) {
+  nav .section1 .contenedor-video form footer{
+    width: 100%;
+  }
+  article{
+    display:none;
+  }
+}
+@media (min-width: 321px) and
+(max-width: 480px){
+  nav .section1 .contenedor-video form footer{
+    width: 100%;
+  }
+  article{
+    display:none;
+  }
+}
+@media (min-width: 481px) and
+(max-width: 768px){
+  nav .section1 .contenedor-video form footer{
+    width: 100%;
+  }
+  article{
+    display:none;
+  }
+}
+@media (min-width: 769px) and
+(max-width: 1200px) {
+  nav .section1 .contenedor-video form footer{
+    width: 100%;
+  }
+  article{
+    display:none;
+  }
+}
+@media (min-width: 1300px) {
+  nav .section1 .contenedor-video form footer{
+    width: 100%;
+  }
 }
